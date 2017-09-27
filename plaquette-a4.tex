@@ -1,0 +1,20 @@
+\batchmode
+
+
+
+\documentclass[a4paper, landscape]{article}
+
+\usepackage[landscape]{geometry}
+\usepackage[latin1]{inputenc}            %Clavier francais
+\usepackage{pdfpages}
+
+
+\begin{document}
+
+
+
+
+\includepdf[delta=0.25cm 0cm,nup=3x1,duplicatepages=3]{plaquette_recto.pdf}
+\includepdf[delta=0.25cm 0cm,nup=3x1,duplicatepages=3]{plaquette_verso.pdf}
+
+\end{document}
